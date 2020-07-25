@@ -1,0 +1,117 @@
+*{
+margin:0;
+border:0;
+box-sizing: border-box;
+}
+body{
+  background-color: #ff5357;
+}
+
+footer{
+position: fixed;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+	background-color:#261513;
+  color: white;
+  text-align: center;
+
+}
+footer p{
+  padding-top: 5px;
+  padding-bottom: 10px;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+
+}
+footer a{
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 3px;
+  border-width: 1px 1.5px 1.8px 1px;
+  border:10px;
+  background-color: white;
+  color: black;
+}
+footer a:hover{
+display: inline-flex;
+  background-color: gray;
+  color:brown ;
+}
+.fa {
+  padding: 8px;
+  font-size: 10px;
+  width: 10px;
+
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.fa:hover {
+    opacity: 0.7;
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+  background: #8a3ab9 ;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+  .fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+body h1{
+  padding-top:25px;
+    color: white;
+  text-align: center;
+  font-size: 45px;
+  font-family: inherit;
+  width: auto;
+  height: auto;
+  position: relative;
+  animation-name: h2;
+  animation-duration: 2s;
+  animation-iteration-count:1;
+  animation-timing-function: ease;
+}
+@keyframes h2 {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+.project{
+  padding-left: 30px;
+}
+.left {
+  padding: 10px;
+  float: left;
+  width: 40%;
+}
+.right {
+  padding: 10px;
+  float: left;
+  width: 40%;
+}
+.card {
+
+  width: 70%;
+   background-color: white;
+   padding :10px;
+
+}
+.fakeimg {
+  width: 100%;
+  padding: 20px;
+
+}
+img{
+  width:200px;
+  height:180px;
+
+}
